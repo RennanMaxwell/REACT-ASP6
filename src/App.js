@@ -19,7 +19,7 @@ function App() {
               Home
             </NavLink>
           </li>
-          <li className='nav-item- m-1'>
+          {/* <li className='nav-item- m-1'>
             <NavLink className="btn btn-light btn-outline-primary" to="/department">
               Department
             </NavLink>
@@ -28,7 +28,7 @@ function App() {
             <NavLink className="btn btn-light btn-outline-primary" to="/employee">
               Employee
             </NavLink>
-          </li>
+          </li> */}
           <li className='nav-item- m-1'>
             <NavLink className="btn btn-light btn-outline-primary" to="/product">
               Product

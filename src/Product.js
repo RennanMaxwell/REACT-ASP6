@@ -158,7 +158,7 @@ export class Product extends Component{
                  onClick={()=>this.addClick()}>
                 Add Product
             </button>
-            <h1>Olá seus pela sacos</h1>
+            <h1>Cadastro Produtos PUBLIWEB</h1>
 
             <table className="table table-striped">
             <thead>
@@ -305,7 +305,7 @@ export class Product extends Component{
    
        <div className="input-group mb-3">
         <span className="input-group-text">ORDEM_INTERNA</span>
-        <input type="text" className="form-control"
+        <input type="text" className="form-control"  maxlength="12"
         value={ORDEM_INTERNA}
         onChange={this.changeOrdemInterna}/>
        </div>
